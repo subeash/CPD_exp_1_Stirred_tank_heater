@@ -1,9 +1,13 @@
 ## References
 #### Books
-- Digital Principles and Applications, by Leach and Malvino.
-- Digital Logic Design, Leach, by Malvino, and Saha
-- Engineering Digital Design, by Richard F. Tinder.
-- Digital Logic and Computer Design, by M. Morris Mano
+- B.Wayane Bequette, Process Dynamics Modeling,Analysis and Simulation, Prentice Hall PIR, New Jersey (1998).
+- Donald R.Coughnowr,Process System Analysis and Control, McGraw-Hill,Inc,International Edition (1991).
+- George Stephanopoulos, Chemical Process Control, Prentice Hall of India Private Ltd, New Delhi (1990).
+- William L.Luyben, Process Modeling Simulation and Control For Chemical Engineers, McGraw-Hill International Editions (1990).
+
+#### Lecture Notes
+- Digital Systems: Principles and Applications, Neal S. Widmer , Ronald J. Tocci , Gregory L. Moss
+#### Lecture Notes
 - Digital Systems: Principles and Applications, Neal S. Widmer , Ronald J. Tocci , Gregory L. Moss
 
 
