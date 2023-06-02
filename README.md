@@ -1,24 +1,45 @@
 ## Introduction
 
+<div align="center">
+<img src="experiment/images/iitkgp.png" width="10%">
+</div>
 
-<b>Discipline | <b>chemical engineering
+<b>Discipline | <b> Electronic Engineering 
 :--|:--|
-<b> Lab | <b> ">Chemical Process Dynamics
-<b> Experiment|     <b> 1. Stirred Tank Heater
+<b> Lab | <b> **Digital Electronic Circuits**
+<b> Experiment|     <b> **Analysis of Functions of BCD-TO-7-segment Decoder / Driver and Operation of 7-segment LED Display**
+
 
 ### About the Experiment 
 
-Mixing Vessels play an essential role in chemical processes. Its utilities are varied and range from mixing chemicals to changing temperatures of fluids. In the study of stirred tank heaters, we will use it primarily as an instrument for varying the temperature of fluid present in the tank. We generally use a heating coil or jacket filled with a hot fluid surrounding the tank. Here, we will be using the coil to heat the tank. For simplicity, we will have the same phase for both the tank fluid and the coil fluid. We also assume that no change of phase takes place in either of the fluids i.e. the ones in the tank and in the surrounding coil. For studying our setup in detail, it's important to get acquainted with the following terms.                 
+<!--Fill a brief description of this experiment here-->
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> **Prof. Gautam Saha**
 :--|:--|
-<b> Institute | <b>  Indian Institute of Technology Kharagpur
-<b> Email id|     <b>  
-<b> Department |  Chemical Engineering
+<b> Institute | <b>  **Indian Institute of Technology Kharagpur**
+<b> Email id|     <b>  **gsaha@ece.iitkgp.ac.in**
+<b> Department |  **Electronics & Electrical Communication Engineering**
+<b>Webpage| <b> [http://www.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=bTmUW](http://www.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=bTmUW)
+
+<b>Name of Developer | <b> **Prof. Indrajit Chakrabarti**
+:--|:--|
+<b> Institute | <b>  **Indian Institute of Technology Kharagpur**
+<b> Email id|     <b>  **indrajit@ece.iitkgp.ac.in**
+<b> Department |  **Electronics & Electrical Communication Engineering**
+<b>Webpage| <b> [http://www.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=bVmbU](http://www.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=bVmbU)
+
+<b>Name of Developer | <b> **Prof. Achintya Halder**
+:--|:--|
+<b> Institute | <b>  **Indian Institute of Technology Kharagpur**
+<b> Email id|     <b>  **achintya@ece.iitkgp.ac.in**
+<b> Department |  **Electronics & Electrical Communication Engineering**
+
 
 ### Contributors List
 
-SrNo | Name | Faculty or Student | Department| Institute | Email id
+SrNo | Name | VLabs Developer or Integration Engineer | Designation | Department| Institute
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | **Ramesh Ghosh** |Integration Engineer | Senior Project Assistant | Department of Mechanical Engineering | IIT Kharagpur | 
+2 | **Sukriti Dhang** | Developer Engineer | Senior Project Assistant | Department of Mechanical Engineering | IIT Kharagpur | 
+3 | **Prakriti Dhang** |Developer Engineer  | Project Staff Technical | Department of Mechanical Engineering | IIT Kharagpur | 
+4 | **Chandan Mishra** |Integration Engineer | Senior Project Assistant | Department of Mechanical Engineering | IIT Kharagpur | 
