@@ -68,6 +68,40 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+     {
+      "question": " At steady tank and coil arrangement as in the experiment, if the tank inlet temperature is increased then the coil outlet temperature:",
+      "answers": {
+        "a": "Increases continuously above the previous steady state value",
+        "b": "Increases and then becomes constant above the previous steady state valuee",
+        "c": "Decreases continuously below the previous steady state value",
+        "d": "Decreases and then becomes a constant below the previous steady state value"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "At steady tank and coil arrangement as in the experiment, if the coil inlet temperature is decreased then the tank outlet temperature:",
+      "answers": {
+        "a": "Increases continuously above the previous steady state value",
+        "b": "Increases and then becomes constant above the previous steady state valuee",
+        "c": "Decreases continuously below the previous steady state value",
+        "d": "Decreases and then becomes a constant below the previous steady state value"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }
