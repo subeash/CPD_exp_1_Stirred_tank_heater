@@ -6,8 +6,8 @@
 - William L.Luyben, Process Modeling Simulation and Control For Chemical Engineers, McGraw-Hill International Editions (1990).
 
 #### Lecture Notes
-- Digital Systems: Principles and Applications, Neal S. Widmer , Ronald J. Tocci , Gregory L. Moss
+- [Example of Modeling a Stirred Tank Heater](http://nptel.ac.in/courses/103103037/3)
 #### Lecture Notes
-- Digital Systems: Principles and Applications, Neal S. Widmer , Ronald J. Tocci , Gregory L. Moss
+- [Process Control and Instrumentation](http://nptel.ac.in/courses/103105064/)
 
 
