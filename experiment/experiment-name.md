@@ -1,1 +1,1 @@
-## Experiment name
+## Stirred Tank Heater Experiment
