@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "what displays is used in Portable digital devices, such as watches or solar-powered calculators??",
+      "question": "When steady state reaches in the tank then?",
       "answers": {
-        "a": "Incandescent",
-        "b": "LCD (liquid-crystal display)",
-        "c": "LED (light-emitting diode)",
-        "d": "Vacuum fluorescent"
+        "a": "The output velocity is always a constant",
+        "b": "The input velocity is always a constant",
+        "c": "The height of the fluid in the tank remains constant",
+        "d": "All of these"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +19,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which input is/are true input into the 7447 decoder IC is causing the 7-segment LED display to read decimal numbers?",
+      "question": "An arrangement as in your experiment is at steady state, what will happen if you increase the output flow rate?",
       "answers": {
-        "a": "1001, 9",
-        "b": "0011, 3",
-        "c": "0001, 1",
-        "d": "All of the above are correct"
+        "a": "1The fluid level in tank decreases continuously",
+        "b": "The fluid level in tank decreases and then becomes constant",
+        "c": "The fluid level in tank increases continuously",
+        "d": "The fluid level in tank increases and then becomes constant"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
