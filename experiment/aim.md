@@ -1,3 +1,3 @@
 ## Aim of the Experiment
 
-The principal objective of this experiment is to fully understand the functions of a BCD-to-7-segment decoder (IC 7447) and use it to control the operations of a common-anode 7-segment LED display.
+Mixing Vessels play an essential role in chemical processes. Its utilities are varied and range from mixing chemicals to changing temperatures of fluids. In the study of stirred tank heaters, we will use it primarily as an instrument for varying the temperature of fluid present in the tank. We generally use a heating coil or jacket filled with a hot fluid surrounding the tank. Here, we will be using the coil to heat the tank. For simplicity, we will have the same phase for both the tank fluid and the coil fluid. We also assume that no change of phase takes place in either of the fluids i.e. the ones in the tank and in the surrounding coil. For studying our setup in detail, it's important to get acquainted with the following terms.
