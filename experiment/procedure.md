@@ -88,9 +88,13 @@ $$V<sub>i-coil</sub> = V<sub>o-coil</sub>$$
  
  As in the case of the tank
  ### Energy In= Energy Store + Energy Out
- V_(i-coil) d_(coil) c_(p-coil)(T_(i-coil)-T_(gr)) - H = (d(S_(coil) d_(coil) c_(p-coil)(T_(i-coil)-T_(gr))))/dt + V_(o-coil)d_(coil) c_(p-coil)(T_(o - coil)-T(gr))
- S_(coil) d_(coil) c_(p-coil)(d (T_(o - coil)-T(gr)))/dt = V_(o-coil)d_(coil) c_(p-coil)[(T_(i-coil)-T_(gr)) + (T_(o-coil) - T(gr))] + H` as `V_(i-coil) = V_(o-coil)
- S_(coil)(d(T_(o-coil)))/dt = V_(o-coil)(T_(i-coil) - T_(o-coil)) + H/(d_(coil) c_(p-coil))
- We can Replace the H in the equation with `UA(T_(o-coil) - T_o)` where U and A are the heat transfer coefficient and the area exposed to heat transfer .
+  $$ V<sub>i-coil</sub> d<sub>coil</sub> c<sub>p-coil</sub>(T<sub>i-coil</sub>-T<sub>gr</sub>) - H = \frac{d(S<sub>coil</sub> d<sub>coil</sub> c<sub>p-coil</sub>(T<sub>i-coil</sub>-T_(gr))}{dt} + V<sub>o-coil</sub>d<sub>coil</sub> c<sub>p-coil</sub>(T<sub>o-coil</sub>-T<sub>gr</sub>) $$
+ 
+ $$ S<sub>coil</sub> d<sub>coil</sub> c<sub>p-coil</sub> \frac {d (T<sub>o-coil</sub>-T<sub>gr</sub>)}{dt} = V<sub>o-coil</sub>d_(coil) c<sub>p-coil</sub>[(T<sub>i-coil</sub>-T<sub>gr</sub>) + (T<sub>o-coil</sub> - T<sub>gr</sub>)] + H as$$
+ $$V<sub>i-coil</sub> = V<sub>o-coil</sub> $$
+ 
+  $$ S<sub>coil</sub> \frac{d(T<sub>o-coil</sub>)}{dt} = V<sub>o-coil</sub>(T<sub>i-coil</sub> - T<sub>o-coil</sub>) + \frac{H}{d<sub>coil</sub> c<sub>p-coil</sub>} $$
+ 
+ We can Replace the H in the equation with $$UA(T<sub>o-coil</sub> - T<sub>o</sub>)$$ where U and A are the heat transfer coefficient and the area exposed to heat transfer .
  Finally we have to solve these two ordinary differential equation to get the steady state temperatures of the tank as well as the coil.
  
