@@ -41,15 +41,15 @@ $$\frac{dS}{dt}=0 $$
 $$ V_i = V_o $$
 
 Now, we will apply energy conservation
-Energy In = Energy Stored + Energy Out
+### Energy In = Energy Stored + Energy Out
 In the case of the stirred tank heater
-Energy in = Energy through inflow + Energy through heat transfer = $$V_i d c_p(T_i - T_(gr)) + H$$
+### Energy in = Energy through inflow + Energy through heat transfer = $$V_i d c_p(T_i - T_(gr)) + H$$
 where,
 T_(gr) - Reference Temperature 
 H - Rate of Heat Transfer into the tank
 C_p - Specific Heat Capacity
-Energy stored = $$\frac{(d(S d_t c_p(T_i - T_(gr))))}{dt}$$
-Energy Out = $$V_o d_t c_p(T_o - T_(gr))$$
+### Energy stored = $$\frac{(d(S d_t c_p(T_i - T_(gr))))}{dt}$$
+### Energy Out = $$V_o d_t c_p(T_o - T_(gr))$$
  Hence,
 $$V_i d c_p(T_i - T_(gr)) + H = d((S d_t c_p(T_i - T_(gr)))$$
 
