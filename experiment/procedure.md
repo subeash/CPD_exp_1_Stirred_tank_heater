@@ -95,6 +95,10 @@ $$V<sub>i-coil</sub> = V<sub>o-coil</sub>$$
  
   $$ S<sub>coil</sub> \frac{d(T<sub>o-coil</sub>)}{dt} = V<sub>o-coil</sub>(T<sub>i-coil</sub> - T<sub>o-coil</sub>) + \frac{H}{d<sub>coil</sub> c<sub>p-coil</sub>} $$
  
- We can Replace the H in the equation with $$UA(T<sub>o-coil</sub> - T<sub>o</sub>)$$ where U and A are the heat transfer coefficient and the area exposed to heat transfer .
+ We can Replace the H in the equation with
+ 
+ $$UA(T<sub>o-coil</sub> - T<sub>o</sub>)$$ 
+ 
+ where U and A are the heat transfer coefficient and the area exposed to heat transfer .
  Finally we have to solve these two ordinary differential equation to get the steady state temperatures of the tank as well as the coil.
  
