@@ -33,3 +33,36 @@ Let's have a look at the setup we are going to use in our experiment.
 ### 2.8 Tank Analysis
 Now, let's apply the concepts we learnt just now. We will consider the tank first. The fluid is entering it with a temperature and flow rate and leaving it with a temperature and flow rate . We assume that temperature inside the tank is uniform and is equal to the outlet temperature. We will assume this for the coil as well. Now, applying mass conservation
 #### Mass stored = Mass in - Mass out
+(d(S d_t))/dt=V_i d_t - V_o d_t
+where S denotes the volume of the tank. Assuming that the tank volume stays the same and the density of the fluid is a constant, then
+(dS)/dt=0
+V_i = V_o
+Now, we will apply energy conservation
+Energy In = Energy Stored + Energy Out
+In the case of the stirred tank heater
+Energy in = Energy through inflow + Energy through heat transfer = V_i d c_p(T_i - T_(gr)) + H
+where,
+T_(gr) - Reference Temperature 
+H - Rate of Heat Transfer into the tank
+C_p - Specific Heat Capacity
+Energy stored = (d(S d_t c_p(T_i - T_(gr))))/dt
+Energy Out = V_o d_t c_p(T_o - T_(gr))
+ Hence,
+ V_i d c_p(T_i - T_(gr)) + H = d((S d_t c_p(T_i - T_(gr)))
+ (S d_t c_p d(T_o - T_(gr)))/dt = V_o d_t C_p[(T_i - T_(gr))+(T_i - T_(gr))] + H as (V_i - V_o)
+ (S d T_o)/d_t = V_o(T_i - T_o) + H/(d_t c_p)
+ The fluid is entering the coil with a temperature `T_(i-coil)` and the flow rate `V_(i-coil)` and leaving it with the temperature `T_(i-coil)` and flow rate `V_(i-coil)`. `d_(coil)` is the density of fluid in the coil. We will now consider the coil and will repeat the same things which we did for the tank.
+ Applying mass conservation,
+ Mass Stored = Mass In - Mass Out
+ (d(S_(coil) d_j))/dt = V_(i- coil) d_(coil) - V_(o - coil) d_(coil)
+ where S denotes the volume of the coil. Assuming that the coil volume stays the same and the density of the fluid is a constant, then
+ (d S_(coil))/dt = 0
+ V_(i-coil) = V_(o - coil)
+ As in the case of the tank
+ Energy In= Energy Store + Energy Out
+ V_(i-coil) d_(coil) c_(p-coil)(T_(i-coil)-T_(gr)) - H = (d(S_(coil) d_(coil) c_(p-coil)(T_(i-coil)-T_(gr))))/dt + V_(o-coil)d_(coil) c_(p-coil)(T_(o - coil)-T(gr))
+ S_(coil) d_(coil) c_(p-coil)(d (T_(o - coil)-T(gr)))/dt = V_(o-coil)d_(coil) c_(p-coil)[(T_(i-coil)-T_(gr)) + (T_(o-coil) - T(gr))] + H` as `V_(i-coil) = V_(o-coil)
+ S_(coil)(d(T_(o-coil)))/dt = V_(o-coil)(T_(i-coil) - T_(o-coil)) + H/(d_(coil) c_(p-coil))
+ We can Replace the H in the equation with `UA(T_(o-coil) - T_o)` where U and A are the heat transfer coefficient and the area exposed to heat transfer .
+ Finally we have to solve these two ordinary differential equation to get the steady state temperatures of the tank as well as the coil.
+ 
