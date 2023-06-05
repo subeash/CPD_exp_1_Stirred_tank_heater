@@ -33,24 +33,30 @@ Let's have a look at the setup we are going to use in our experiment.
 ### 2.8 Tank Analysis
 Now, let's apply the concepts we learnt just now. We will consider the tank first. The fluid is entering it with a temperature and flow rate and leaving it with a temperature and flow rate . We assume that temperature inside the tank is uniform and is equal to the outlet temperature. We will assume this for the coil as well. Now, applying mass conservation
 #### Mass stored = Mass in - Mass out
-(d(S d_t))/dt=V_i d_t - V_o d_t
+$$ \frac{d(S d_t) }{dt}=V_i d_t - V_o d_t $$
+
 where S denotes the volume of the tank. Assuming that the tank volume stays the same and the density of the fluid is a constant, then
-(dS)/dt=0
-V_i = V_o
+$$\frac{dS}{dt}=0 $$
+
+$$ V_i = V_o $$
+
 Now, we will apply energy conservation
 Energy In = Energy Stored + Energy Out
 In the case of the stirred tank heater
-Energy in = Energy through inflow + Energy through heat transfer = V_i d c_p(T_i - T_(gr)) + H
+Energy in = Energy through inflow + Energy through heat transfer = $$V_i d c_p(T_i - T_(gr)) + H$$
 where,
 T_(gr) - Reference Temperature 
 H - Rate of Heat Transfer into the tank
 C_p - Specific Heat Capacity
-Energy stored = (d(S d_t c_p(T_i - T_(gr))))/dt
-Energy Out = V_o d_t c_p(T_o - T_(gr))
+Energy stored = $$\frac{(d(S d_t c_p(T_i - T_(gr))))}{dt}$$
+Energy Out = $$V_o d_t c_p(T_o - T_(gr))$$
  Hence,
- V_i d c_p(T_i - T_(gr)) + H = d((S d_t c_p(T_i - T_(gr)))
- (S d_t c_p d(T_o - T_(gr)))/dt = V_o d_t C_p[(T_i - T_(gr))+(T_i - T_(gr))] + H as (V_i - V_o)
- (S d T_o)/d_t = V_o(T_i - T_o) + H/(d_t c_p)
+$$V_i d c_p(T_i - T_(gr)) + H = d((S d_t c_p(T_i - T_(gr)))$$
+
+ $$\frac{(S d_t c_p d(T_o - T_(gr)))}{dt} = V_o d_t C_p[(T_i - T_(gr))+(T_i - T_(gr))] + H as (V_i - V_o)$$
+ 
+$$\frac{(S d T_o)}{d_t} = V_o(T_i - T_o) + \frac{H}{(d_t c_p)}$$
+
  The fluid is entering the coil with a temperature `T_(i-coil)` and the flow rate `V_(i-coil)` and leaving it with the temperature `T_(i-coil)` and flow rate `V_(i-coil)`. `d_(coil)` is the density of fluid in the coil. We will now consider the coil and will repeat the same things which we did for the tank.
  Applying mass conservation,
  Mass Stored = Mass In - Mass Out
