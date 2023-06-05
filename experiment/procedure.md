@@ -43,29 +43,51 @@ $$ V_i = V_o $$
 Now, we will apply energy conservation
 ### Energy In = Energy Stored + Energy Out
 In the case of the stirred tank heater
-### Energy in = Energy through inflow + Energy through heat transfer = $$V_i d c_p(T_i - T_(gr)) + H$$
-where,
-T_(gr) - Reference Temperature 
-H - Rate of Heat Transfer into the tank
-C_p - Specific Heat Capacity
-### Energy stored = $$\frac{(d(S d_t c_p(T_i - T_(gr))))}{dt}$$
-### Energy Out = $$V_o d_t c_p(T_o - T_(gr))$$
- Hence,
-$$V_i d c_p(T_i - T_(gr)) + H = d((S d_t c_p(T_i - T_(gr)))$$
+### Energy in = Energy through inflow + Energy through heat transfer = 
 
- $$\frac{(S d_t c_p d(T_o - T_(gr)))}{dt} = V_o d_t C_p[(T_i - T_(gr))+(T_i - T_(gr))] + H as (V_i - V_o)$$
+$$V_i d c_p(T_i - T<sub>gr</sub>) + H$$
+
+where,
+T<sub>gr - Reference Temperature
+ 
+H - Rate of Heat Transfer into the tank
+ 
+C<sub>p - Specific Heat Capacity
+ 
+ 
+### Energy stored = 
+ 
+$$\frac{d(S d_t c_p(T_i - T<sub>gr</sub>)}{dt}$$
+ 
+### Energy Out = 
+
+ $$V_o d_t c_p(T_o - T<sub>gr</sub>)$$
+ 
+ Hence,
+ 
+$$V_i d c_p(T_i - T_gr) + H = d((S d_t c_p(T_i - T<sub>gr</sub>))$$
+
+ $$\frac{(S d_t c_p d(T_o - T<sub>gr</sub>))}{dt} = V_o d_t C_p[(T_i - T<sub>gr</sub>)+(T_i - T<sub>gr</sub>)] + H as (V_i - V_o)$$
  
 $$\frac{(S d T_o)}{d_t} = V_o(T_i - T_o) + \frac{H}{(d_t c_p)}$$
 
- The fluid is entering the coil with a temperature `T_(i-coil)` and the flow rate `V_(i-coil)` and leaving it with the temperature `T_(i-coil)` and flow rate `V_(i-coil)`. `d_(coil)` is the density of fluid in the coil. We will now consider the coil and will repeat the same things which we did for the tank.
+ ### 2.9 Coil Analysis
+ 
+ The fluid is entering the coil with a temperature T<sub>i-coil</sub> and the flow rate V<sub>i-coil</sub> and leaving it with the temperature T<sub>i-coil</sub> and flow rate V<sub>i-coil</sub>. d<sub>coil<sub> is the density of fluid in the coil. We will now consider the coil and will repeat the same things which we did for the tank.
+ 
  Applying mass conservation,
- Mass Stored = Mass In - Mass Out
- (d(S_(coil) d_j))/dt = V_(i- coil) d_(coil) - V_(o - coil) d_(coil)
+ ### Mass Stored = Mass In - Mass Out
+ 
+ $$\frac{d(S_(coil) d_j)}{dt} = V<sub>i−coil</sub>d<sub>coil</sub>−V<sub>o−coil</sub>d<sub>coil</sub>$$
+ 
  where S denotes the volume of the coil. Assuming that the coil volume stays the same and the density of the fluid is a constant, then
- (d S_(coil))/dt = 0
- V_(i-coil) = V_(o - coil)
+ 
+$$\frac{dS<sub>coil</sub>}{dt} =0$$
+ 
+$$V<sub>i-coil</sub> = V<sub>o-coil</sub>$$
+ 
  As in the case of the tank
- Energy In= Energy Store + Energy Out
+ ### Energy In= Energy Store + Energy Out
  V_(i-coil) d_(coil) c_(p-coil)(T_(i-coil)-T_(gr)) - H = (d(S_(coil) d_(coil) c_(p-coil)(T_(i-coil)-T_(gr))))/dt + V_(o-coil)d_(coil) c_(p-coil)(T_(o - coil)-T(gr))
  S_(coil) d_(coil) c_(p-coil)(d (T_(o - coil)-T(gr)))/dt = V_(o-coil)d_(coil) c_(p-coil)[(T_(i-coil)-T_(gr)) + (T_(o-coil) - T(gr))] + H` as `V_(i-coil) = V_(o-coil)
  S_(coil)(d(T_(o-coil)))/dt = V_(o-coil)(T_(i-coil) - T_(o-coil)) + H/(d_(coil) c_(p-coil))
