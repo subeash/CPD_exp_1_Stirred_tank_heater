@@ -13,7 +13,7 @@ Conduction can be understood as a process in which energy transfer occurs from a
  ### 1.2 Convection               
 Unlike conduction, convection involves bulk transport of fluids from one place to another which consequently results in exchange of heat from the hotter to colder substance. In brief, the heat energy transferred due to movement of a heated substance is convection. Land and sea breezes are a good example of the phenomenon of convection. During the night, the land cools faster due to poor conductivity of land. This leads to differential heating of the air above land and water. The air above seas is hotter. Since hot air is lighter, it rises up resulting in cool breezes from the land blowing in above seas and the hot air being transported to land resulting in warm night breezes. The reverse process is repeated during the day. This entire phenomenon is based on convection currents and is an example of natural convection. Natural convection is essentially due to the difference in the densities of the fluids which results in their subsequent motion. When fluids are made to move due to some external forces such as a fan or a blower as the case maybe, then it's called forced convection.
  
-<img src="images/fig1.png"  style="width:500px;height:400px;"/>
+<img src="images/convection.jpg"  style="width:500px;height:400px;"/>
 				
 <p>Figure 1.1 Convection Currents</p>
                            
