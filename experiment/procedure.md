@@ -82,26 +82,25 @@ $$\frac{(S d T_o)}{d_t} = V_o(T_i - T_o) + \frac{H}{(d_t c_p)}$$
  Applying mass conservation,
  ### Mass Stored = Mass In - Mass Out
  
- $$\frac{d(S_(coil) d_j)}{dt} = V<sub>i−coil</sub>d<sub>coil</sub>−V<sub>o−coil</sub>d<sub>coil</sub>$$
+ $$\frac{d(S_{coil} d_j)}{dt} = V_{i−coil} d_{coil}−V_{o−coil}d_{coil}$$
  
  where S denotes the volume of the coil. Assuming that the coil volume stays the same and the density of the fluid is a constant, then
  
-$$\frac{dS<sub>coil</sub>}{dt} =0$$
+$$\frac{dS_{coil}}{dt} =0$$
  
-$$V<sub>i-coil</sub> = V<sub>o-coil</sub>$$
+$$V_{i-coil} = V_{o-coil}$$
  
  As in the case of the tank
  ### Energy In= Energy Store + Energy Out
-  $$ V<sub>i-coil</sub> d<sub>coil</sub> c<sub>p-coil</sub>(T<sub>i-coil</sub>-T<sub>gr</sub>) - H = \frac{d(S<sub>coil</sub> d<sub>coil</sub> c<sub>p-coil</sub>(T<sub>i-coil</sub>-T_(gr))}{dt} + V<sub>o-coil</sub>d<sub>coil</sub> c<sub>p-coil</sub>(T<sub>o-coil</sub>-T<sub>gr</sub>) $$
+  $$ V_{i-coil} d_{coil} c_{p-coil} (T_{i-coil}-T_{gr}) - H = \frac{d(S_{coil} d_{coil} c_{p-coil}(T_{i-coil}-T_{gr})}{dt} + V_{o-coil}d_{coil} c_{p-coil}(T_{o-coil}-T_{gr}) $$
  
- $$ S<sub>coil</sub> d<sub>coil</sub> c<sub>p-coil</sub> \frac {d (T<sub>o-coil</sub>-T<sub>gr</sub>)}{dt} = V<sub>o-coil</sub>d_(coil) c<sub>p-coil</sub>[(T<sub>i-coil</sub>-T<sub>gr</sub>) + (T<sub>o-coil</sub> - T<sub>gr</sub>)] + H as$$
- $$V<sub>i-coil</sub> = V<sub>o-coil</sub> $$
+ $$ S_{coil}> d_{coil} c_{p-coil} \frac {d (T_{o-coil}-T_{gr})}{dt} = V_{o-coil}d_{coil} c_{p-coil}[(T_{i-coil}-T_{gr}) + (T_{o-coil} - T_{gr})] + H \ as\ $$
  
-  $$ S<sub>coil</sub> \frac{d(T<sub>o-coil</sub>)}{dt} = V<sub>o-coil</sub>(T<sub>i-coil</sub> - T<sub>o-coil</sub>) + \frac{H}{d<sub>coil</sub> c<sub>p-coil</sub>} $$
+ $$V_{i-coil} = V_{o-coil} $$
  
- We can Replace the H in the equation with
+  $$ S_{coil} \frac{d(T_{o-coil})}{dt} = V_{o-coil}(T_{i-coil} - T_{o-coil}) + \frac{H}{d_{coil} c_{p-coil}} $$
  
- $$UA(T<sub>o-coil</sub> - T<sub>o</sub>)$$ 
+ $$We\ can\ Replace\ the\ H\ in\ the\ equation\ with\ UA(T_{o-coil} - T_o)$$ 
  
  where U and A are the heat transfer coefficient and the area exposed to heat transfer .
  Finally we have to solve these two ordinary differential equation to get the steady state temperatures of the tank as well as the coil.
