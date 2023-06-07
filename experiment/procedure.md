@@ -21,7 +21,7 @@ A situation in which all the state variables remain constant despite parallel pr
 ### 2.5 Time Constant
 When we talk about time constant, it's essential to take into account the context in which we are talking about it. In our case, time constant can be defined as 63% of the time that will be taken for a body to reach steady state.
 ### 2.6 Setup
-Let's have a look at the setup we are going to use in our experiment.
+Let's have a look at the setup we are going to use in our experiment. <br/>
 <img src="images/tank-heater-setup.jpg"  style="width:500px;height:400px;"/>
 ### 2.7 Assumptions
 -The density of the coil as well as the tank's fluid material remains constant.
