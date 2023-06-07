@@ -24,13 +24,20 @@ When we talk about time constant, it's essential to take into account the contex
 Let's have a look at the setup we are going to use in our experiment. <br/>
 <img src="images/tank-heater-setup.jpg"  style="width:500px;height:400px;"/>
 ### 2.7 Assumptions
--The density of the coil as well as the tank's fluid material remains constant.
--The specific heat capacity of the coil as well as the tank's fluid material remains constant.
--The stirring is such that as soon as a drop of material enters the tank or the coil it has the same temperature as that of the rest of the bulk material.
--The fluid is incompressible.
--No accumulation occurs inside the tank or the coil, i.e., mass inflow is equal to the mass outflow.
--No radiation takes place
--There is only one state of a particular fluid present in the tank as well as the coil throughout the experiment, i.e., the state of the fluid dose not change during the experiment.
+- The density of the coil as well as the tank's fluid material remains constant.
+
+- The specific heat capacity of the coil as well as the tank's fluid material remains constant.
+
+- The stirring is such that as soon as a drop of material enters the tank or the coil it has the same temperature as that of the rest of the bulk material.
+
+- The fluid is incompressible.
+
+- No accumulation occurs inside the tank or the coil, i.e., mass inflow is equal to the mass outflow.
+
+- No radiation takes place
+
+- There is only one state of a particular fluid present in the tank as well as the coil throughout the experiment, i.e., the state of the fluid dose not change during the experiment.
+
 ### 2.8 Tank Analysis
 Now, let's apply the concepts we learnt just now. We will consider the tank first. The fluid is entering it with a temperature and flow rate and leaving it with a temperature and flow rate . We assume that temperature inside the tank is uniform and is equal to the outlet temperature. We will assume this for the coil as well. Now, applying mass conservation
 #### Mass stored = Mass in - Mass out
@@ -44,11 +51,11 @@ $$ V_i = V_o $$
 Now, we will apply energy conservation
 ### Energy In = Energy Stored + Energy Out
 In the case of the stirred tank heater
-### Energy in = Energy through inflow + Energy through heat transfer = 
 
-$$V_i d c_p(T_i - T<sub>gr</sub>) + H$$
+$$Energy \ in \ = \ Energy\  through\  inflow\  + \ Energy\  through\  heat\  transfer\  = V_i d c_p(T_i - T<sub>gr</sub>) + H$$
 
 where,
+
 T<sub>gr - Reference Temperature
  
 H - Rate of Heat Transfer into the tank
@@ -56,13 +63,9 @@ H - Rate of Heat Transfer into the tank
 C<sub>p - Specific Heat Capacity
  
  
-### Energy stored = 
+$$Energy\ stored \ =\  \frac{d(S d_t c_p(T_i - T<sub>gr</sub>)}{dt}$$
  
-$$\frac{d(S d_t c_p(T_i - T<sub>gr</sub>)}{dt}$$
- 
-### Energy Out = 
-
- $$V_o d_t c_p(T_o - T<sub>gr</sub>)$$
+$$Energy \ Out\ =\ V_o d_t c_p(T_o - T<sub>gr</sub>)$$
  
  Hence,
  
@@ -74,7 +77,7 @@ $$\frac{(S d T_o)}{d_t} = V_o(T_i - T_o) + \frac{H}{(d_t c_p)}$$
 
  ### 2.9 Coil Analysis
  
- The fluid is entering the coil with a temperature T<sub>i-coil</sub> and the flow rate V<sub>i-coil</sub> and leaving it with the temperature T<sub>i-coil</sub> and flow rate V<sub>i-coil</sub>. d<sub>coil<sub> is the density of fluid in the coil. We will now consider the coil and will repeat the same things which we did for the tank.
+ The fluid is entering the coil with a temperature T<sub>i-coil</sub> and the flow rate V<sub>i-coil</sub> and leaving it with the temperature T<sub>i-coil</sub> and flow rate V<sub>i-coil</sub>. d<sub>coil</sub> is the density of fluid in the coil. We will now consider the coil and will repeat the same things which we did for the tank.
  
  Applying mass conservation,
  ### Mass Stored = Mass In - Mass Out
